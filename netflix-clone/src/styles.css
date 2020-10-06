@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    background-color: #1d1d1d;
+}
+.slick-next {
+    right:20px;
+    z-index: 99;
+}
+.slick-next:before {
+    font-size: 40px;
+}
+  
+.slick-prev {
+    left: 20px;
+    z-index: 99;
+}
+.slick-prev:before {
+    font-size: 40px;
+}

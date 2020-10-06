@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 6rem;
+}
+.container .header__banner{
+    background-position: top center;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .header__banner h2{
+    font-size: 6rem;
+    margin-left: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    color: lightgray;
+
+}
+.container .header__banner .header__buttons{
+    display: flex;
+}
+.container .header__banner .header__buttons button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.container .header__banner .header__buttons button mat-icon{
+    transform: scale(1.25);
+}
+.container .header__banner .header__buttons .play-button span{
+   font-weight: 600px;
+   font-size: 24px;
+}
+.container .header__banner .header__buttons .play-button mat-icon{
+    transform: scale(2.5);
+}
+.container .header__banner .header__buttons .more-button{
+    background-color: rgba(112, 113, 109, 0.7);
+}
+.container .header__banner .header__buttons .more-button mat-icon{
+    color: lightgray;
+}
+.container .header__banner .header__buttons .more-button span{
+    font-weight: 500px;
+    font-size: 24px;
+    color: white;
+}
+.container .header__main{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+}
+.container .header__main{
+    background-color: #0d0d0d;
+    z-index: 100; 
+}
+.container .header__main .header__left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container .header__main .header__left img{
+    margin-left: 40px;
+    height: 100%;
+    width: 100px;
+    margin-top: 5px;  
+}
+.container .header__main .header__left .active{
+    color: white;
+}
+
+
+.container ul{
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+}
+.container a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline-block;
+    width: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    color: #a4a4a4;
+    transition: all 0.2s ease;
+}
+.container ul a:hover{
+    color: #696969;
+}
+.container .header__main .header__right li img{
+    width: 40px;
+    height: 40px;
+}
+.container .header__main .header__right ul{
+    flex: 1;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    gap: 30px;
+}
+.container .header__main .header__right li a{
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.container .header__main .header__right mat-icon{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.container .body{
+    margin-top: 30rem;
+    overflow-y: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+
+
